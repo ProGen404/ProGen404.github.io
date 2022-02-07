@@ -1,12 +1,12 @@
 /*Color Palette*/
 :root {
-	--bg = #ffffff
-	--mn = #4f4789
-	--cta = #f6ae2d
+	--bg : #ffffff;
+	--mn : #4f4789;
+	--cta : #f6ae2d;
 
-	--bgdark = #0C0C1D
-	--mndark = #EBEBEB
-	--ctadark = #59C3C3
+	--bgdark : #0C0C1D;
+	--mndark : #EBEBEB;
+	--ctadark : #59C3C3;
 }
 
 .dark-theme {
