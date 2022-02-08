@@ -20,6 +20,11 @@
 body {
 	background-color: var(--bg);
 	color: var(--mn);
+	
+	padding: none;
+	margin: none;
+	text-align: center;
+	font-size: 50px;
 }
 a {
 	color: var(--cta);
@@ -29,4 +34,8 @@ div {
 	height: 100vh;
 	background-image: url('/Images/comingsoon.jpg');
 	background-size: cover;
+}
+
+div h1 {
+	margin-top: 50%
 }
