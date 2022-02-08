@@ -27,6 +27,6 @@ a {
 
 div {
 	height: 100vh;
-	background-image: url('Images/comingsoon.jpg');
+	background-image: url('/Images/comingsoon.jpg');
 	background-size: cover;
 }
