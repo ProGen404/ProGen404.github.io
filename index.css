@@ -24,3 +24,9 @@ body {
 a {
 	color: var(--cta);
 }
+
+div {
+	height: 100vh;
+	background-image: url('Images/comingsoon.jpg');
+	background-size: cover;
+}
