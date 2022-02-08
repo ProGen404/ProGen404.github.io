@@ -9,6 +9,9 @@
 	--ctadark : #59C3C3;
 }
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
 .dark-theme {
 	background-color: var(--bgdark);
 	color: var(--mndark);
@@ -24,18 +27,23 @@ body {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	font-size: 45px;
+	font-size: 4vw;
+	
+	height:60vh;
 }
 a {
 	color: var(--cta);
 }
 
 div {
-	height: 80.5vh;
+	height: 100%;
 	background-image: url('/Images/comingsoon.jpg');
 	background-size: cover;
 	margin: 0;
-	padding-top: 10%;
+	padding: 20vh;
 	filter: brightness(70%);
 	filter: blur(.5px);
+	
+	color:var(--bg);
+	font-family:'Raleway', sans-serif;
 }
