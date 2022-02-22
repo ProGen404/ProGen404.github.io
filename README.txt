@@ -1,6 +1,12 @@
-Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
+This is my first published website.
+I am going to update it and try to make it better by adding more content.
 
-This repository is built step by step in the tutorial.
+Contents:
+-CV
+-Blog
+-Portfolio
 
-This repository also helps me learn how to use GitHub.
+Added Features:
+-Dark Theme Toggler
+-Translated in: English, Greek, Spanish
+-Responsiveness (meh)
