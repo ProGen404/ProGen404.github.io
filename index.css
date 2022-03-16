@@ -9,15 +9,16 @@
 	--ctadark : #59C3C3;
 }
 
-/* Fonts */
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
 
 .dark-theme {
-	background-color: var(--bgdark);
-	color: var(--mndark);
+	background-color: var(--bgdark) !important;
+	color: var(--mndark) !important;
 }
 .dark-theme a {
-	color: var(--ctadark);
+	color: var(--ctadark) !important;
 }
 
 body {
@@ -27,23 +28,63 @@ body {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	font-size: 4vw;
-	
-	height:60vh;
+	/*font-size: 4vw;
+
+	height: 60vh;*/
 }
 a {
 	color: var(--cta);
 }
 
-div {
+/*div {
 	height: 100%;
-	background-image: url('/Images/comingsoon.jpg');
+	background-image: url(Images/comingsoon.jpg);
 	background-size: cover;
 	margin: 0;
 	padding: 20vh;
+
 	filter: brightness(70%);
 	filter: blur(.5px);
-	
-	color:var(--bg);
-	font-family:'Raleway', sans-serif;
+
+	color: var(--bg);
+
+	font-family: 'Raleway', sans-serif;
+}*/
+
+/*Header*/
+#main-header {
+	max-height: 105vh;
+	max-width: 100%;
+	font-family: 'Raleway';
+}
+#main-header img {
+	max-width: 100%;
+	position: fixed;
+}
+#hd {
+	position: sticky;
+	text-align: center;
+	padding-top: 18%;
+	font-family: 'lato';
+	font-weight: bolder;
+	text-shadow: .1vh .1vh var(--cta);
+	color: var(--bg);
+}
+
+/*Theme Button*/
+#toggle {
+	position: fixed;
+	top: 1vh;
+	right: 1vh;
+	font-size: 2vw;
+	font-family: 'Lato';
+	color: var(--mn);
+	background-color: var(--cta);
+	border: none;
+	border-radius: 50%;
+	padding: 1vh 2.5vh;
+}
+
+#toggle:hover {
+	box-shadow: .1vh .1vh 1vh var(--mn);
 }
