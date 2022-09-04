@@ -69,6 +69,7 @@ a {
 	font-weight: bolder;
 	text-shadow: .1vh .1vh var(--cta);
 	color: var(--bg);
+	font-variant: small-caps;
 }
 
 /*Theme Button*/
