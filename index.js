@@ -4,10 +4,10 @@ function darktheme() {
 
 	if (element.classList.contains("dark-theme")) {
 		// document.getElementById('toggle').innerHTML = "Dark"
-		document.getElementById('togimg').src = "Icons/night.png"
+		document.getElementById('togimg').src = "Icons/moon-64.png"
 	}
 	else {
 		// document.getElementById('toggle').innerHTML = "Light"
-		document.getElementById('togimg').src = "Icons/day.png"
+		document.getElementById('togimg').src = "Icons/sun-64.png"
 	}
 }
