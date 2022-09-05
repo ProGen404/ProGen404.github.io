@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
 
+/*Dark Theme*/
 .dark-theme {
 	background-color: var(--bgdark) !important;
 	color: var(--mndark) !important;
@@ -80,12 +81,17 @@ a {
 	font-size: 2vw;
 	font-family: 'Lato';
 	color: var(--mn);
-	background-color: var(--cta);
+	/*background-color: var(--cta);*/
+	background-color: transparent;
 	border: none;
 	border-radius: 50%;
 	padding: 1vh 2.5vh;
 }
 
 #toggle:hover {
-	box-shadow: .1vh .1vh 1vh var(--mn);
+	/*box-shadow: .1vh .1vh 1vh var(--mn);*/
+	background-color: var(--cta);
+	transition: background-color 1s;
+	transition-timing-function: ease;
+	transition-delay: .1s;
 }
